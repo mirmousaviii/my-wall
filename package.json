@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier-check": "prettier --config .prettierrc 'src/' --check",
-    "prettier-format": "prettier --config .prettierrc 'src/' --write",
+    "prettier-check": "prettier --config .prettierrc.json 'src/' --check",
+    "prettier-format": "prettier --config .prettierrc.json 'src/' --write",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -27,6 +27,7 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.6",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "eslint": "^8.44.0",
     "eslint-config-next": "^13.4.8",
