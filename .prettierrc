@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^(react$)",
+    "<THIRD_PARTY_MODULES>",
+    "^(src|components|context|dialogs|doc|hooks|layouts|pages|routes|services|types|utils)(/.*|$)",
+    "^[./|../]"
+  ],
+  "importOrderSeparation": true
+}

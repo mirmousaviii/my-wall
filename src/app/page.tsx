@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import Button from '@mui/joy/Button';
 
 export default function Home() {
@@ -9,5 +10,5 @@ export default function Home() {
       <p>Coming soon!</p>
       <Button variant="solid">Hello World</Button>
     </main>
-  )
+  );
 }
